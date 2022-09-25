@@ -10,19 +10,12 @@
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        <style>
-            <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
-	        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-                <!-- https://fonts.google.com/ -->
-            <link href="resource/css/bootstrap.min.css" rel="stylesheet">
-            <link href="resource/css/templatemo-xtra-blog.css" rel="stylesheet">
-        </style>
 
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
+        <link rel="stylesheet" href="{{ asset('/dist/fontawesome/css/all.min.css') }}"> <!-- https://fontawesome.com/ -->
+	    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+        <link href="{{ asset('/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('/dist/css/app.css') }}" rel="stylesheet" type="text/css">
+
     </head>
 
     <body>
@@ -33,7 +26,7 @@
                 </button>
                 <div class="tm-site-header">
                     <div class="mb-3 mx-auto tm-site-logo"><i class="fas fa-times fa-2x"></i></div>
-                    <h1 class="text-center">Xtra Blog</h1>
+                    <h1 class="text-center">Kappa's Playground</h1>
                 </div>
                 <nav class="tm-nav" id="tm-nav">
                     <ul>
