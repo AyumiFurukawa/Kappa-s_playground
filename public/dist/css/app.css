@@ -402,7 +402,7 @@ a:hover figcaption { color: #056767; }
 }
 
 .tm-social-links li a i { transition: all 0.3s ease; }
-.tm-social-links li a:hover i.fa-facebook { color: #3b5998; }
+.tm-social-links li a:hover i.fa-github { color: #00acee; }
 .tm-social-links li a:hover i.fa-twitter { color: #00acee; }
 .tm-social-links li a:hover i.fa-youtube { color: #c4302b; }
 .tm-social-links li a:hover i.fa-instagram { color: #3f729b; }
